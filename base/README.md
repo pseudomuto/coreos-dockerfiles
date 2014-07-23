@@ -9,9 +9,18 @@ in this repository.
 
 ## Installation
 
-1. Install [Docker]
-2. Download from the [Docker Registry]: `sudo docker pull pseudomuto/base`
+Install [Docker], then
+
+### Install using the Docker Registry
+
+`sudo docker pull pseudomuto/base`
+
+### Clone and Build
+
+```
+git clone https://github.com/pseudomuto/dockerfiles.git
+rake build[base]
+```
 
 [Docker]: https://www.docker.io/
-[Docker Registry]: https://registry.hub.docker.com/
 [ubuntu]: https://registry.hub.docker.com/_/ubuntu/
