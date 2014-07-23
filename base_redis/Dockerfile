@@ -1,6 +1,6 @@
 # Base Redis Dockerfile
 #
-# https://github.com/pseudomuto/docker-base
+# https://github.com/pseudomuto/dockerfiles/tree/master/base_redis
 #
 
 FROM pseudomuto/base
