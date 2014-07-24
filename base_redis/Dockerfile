@@ -7,7 +7,7 @@ FROM pseudomuto/base
 MAINTAINER David Muto <david.muto@gmail.com>
 
 # Update to invalidate image cache
-ENV PMDF_REFRESHED_AT 20140722232113
+ENV PMDF_REFRESHED_AT 20140724003411
 
 RUN \
   apt-get update && apt-get install -y python-software-properties && \
