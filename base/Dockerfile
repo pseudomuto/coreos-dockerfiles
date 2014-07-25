@@ -8,7 +8,7 @@ FROM ubuntu:14.04
 MAINTAINER David Muto <david.muto@gmail.com>
 
 # Update to invalidate image cache
-ENV PMDF_REFRESHED_AT 20140722232113
+ENV PMDF_REFRESHED_AT 20140724232302
 
 RUN \
   apt-get update && apt-get -y upgrade && \
